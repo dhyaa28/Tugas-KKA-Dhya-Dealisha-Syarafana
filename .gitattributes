@@ -1,2 +1,26 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#include <iostream>
+using namespace std;
+
+// Function to calculate the area of a rectangle
+double calculateArea(double length, double width) {
+    return length * width;
+}
+
+int main() {
+    double length, width, area;
+
+    // Input values from the keyboard
+    cout << "Enter the length: 12 ";
+    cin >> length;
+
+    cout << "Enter the width: 12 ";
+    cin >> width;
+
+    // Call the calculateArea() function
+    area = calculateArea(length, width);
+
+    // Display the result
+    cout << "Rectangle area = 144 " << area << endl;
+
+    return 0;
+}
